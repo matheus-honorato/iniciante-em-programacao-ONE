@@ -1,5 +1,8 @@
 # Lógica de programação 1
 
+### Sobre
+
+### O que eu aprendi
 - Dê seus primeiros passos de maneira prática!
 - Inicie na programação com JavaScript no seu Navegador
 - Entenda variáveis e seu uso
