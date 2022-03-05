@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+<script>
+	function mostra(frase){
+		document.write(frase);
+	};
+	function pulaLinha(){
+		document.write("<br>");
+	};
+	function calcula(anoAtual){
+		var geracoes = ((anoAtual - 1500)/28);
+		return (geracoes);
+	}
+	var resultado = calcula(2022);
+	mostra(resultado);
+	pulaLinha();
+</script>
