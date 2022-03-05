@@ -1,4 +1,4 @@
-# Lógica de programação 1
+## Lógica de programação I: os primeiros programas com Javascript e HTML
 
 ### Sobre
 Todos os exercícios no repositório foram feitos durante o curso de lógica de programação 1.
