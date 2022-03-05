@@ -1,10 +1,10 @@
 # Lógica de programação 1
 
-### Sobre
-
 ### O que eu aprendi
-- Dê seus primeiros passos de maneira prática!
-- Inicie na programação com JavaScript no seu Navegador
+
+- Introdução da lógica de programação utilizando Javascript
 - Entenda variáveis e seu uso
+- Criar as próprias funcionalidade usando funções
 - Repita tarefas com laços, loops, fors e whiles
-- Mostre seus programas para seus colegas
+- Executar códigos diferentes dependendo da condição
+- Trabalhar com muitos dados
