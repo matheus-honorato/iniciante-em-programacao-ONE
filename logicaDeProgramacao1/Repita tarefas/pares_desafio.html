@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+	function mostra(frase){
+		document.write(frase);
+	}
+	function pulaLinha(){
+		document.write("<br><br>");
+	}
+	var contador = 1
+	while (contador <= 100){
+		if (contador%2 == 0){
+			mostra(contador + " É par ");
+			pulaLinha();
+		}else{
+			mostra(contador + " Não é par ");
+			pulaLinha();
+		}
+		contador = contador +1;
+	}
+	mostra("Fim!");
+</script>

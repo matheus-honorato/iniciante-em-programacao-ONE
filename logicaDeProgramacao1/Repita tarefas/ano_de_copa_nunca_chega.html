@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<!-- Qual a razão do código de Francisco não funcionar como esperado? Altere-o para que exiba corretamente todas as copas de 1930 até a data limite informada. -->
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var anoCopa = 1930;
+    var limite = parseInt(prompt("Qual é o ano limite?"));
+
+    while(anoCopa <= limite) {
+
+        mostra(anoCopa + " tem copa!");
+        anoCopa = anoCopa + 4;
+    }
+
+    
+
+    mostra("Ufa! Esses foram os anos de copa até " + limite);
+</script>

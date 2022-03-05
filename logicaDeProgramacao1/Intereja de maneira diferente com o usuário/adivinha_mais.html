@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<input/> <!-- Entrada de dados -->
+<button> Compare com o meu segredo </button>
+<script>
+	var segredo = Math.round(Math.random() * 10);
+
+	var input = document.querySelector("input"); // Acessa o input/tag no mundo html, guarda na variavel pra poder usar no mundo js
+	input.focus(); // Dá focus no botão de começo
+	function verifica(){
+
+		if(input.value == segredo){ // Pega o valor do input, input.value
+			alert("Você acertou!");
+		}else{
+			alert("Você errou!");
+		}
+		input.value = ""; 
+		input.focus(); // Dá focus no botão ao errar ou acertar.
+	}
+
+	var button = document.querySelector("button");
+
+	button.onclick = verifica; // O código da função está guardado dentro do button, ao clicar, executa a funcao verifica. Apenas verifica tem acesso  ao codigo e verifica() executa a funcao
+</script>
