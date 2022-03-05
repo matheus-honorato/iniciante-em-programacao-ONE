@@ -1,5 +1,8 @@
 # Lógica de programação 1
 
+### Sobre
+Todos os exercícios no repositório foram feitos durante o curso de lógica de programação 1.
+
 ### O que eu aprendi
 
 - Introdução da lógica de programação utilizando Javascript
